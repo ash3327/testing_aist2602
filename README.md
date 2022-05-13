@@ -21,7 +21,7 @@ For more details of these tasks, please refer to the `tasks.md` file.
   <ul>
     <li><img src="{{ student.image }}" width=50 height=50><a href="https://github.com/{{ student.user }}">@{{ student.user }}</a> ({{ student.name }})</li>
     <ul>
-      <li>{{ staff_member.content | markdownify }}</li>
+      <li>{{ student.content | markdownify }}</li>
     </ul>
   </ul>
 {% endfor %}
