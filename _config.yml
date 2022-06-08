@@ -2,5 +2,4 @@ theme: jekyll-theme-midnight
 markdown: kramdown
 collections:
   students:
-    people: true
     output: true
